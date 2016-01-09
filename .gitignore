@@ -1,0 +1,7 @@
+# OSX
+.DS_Store
+
+# Intellij
+.idea/workspace.xml
+
+bootstrap_source

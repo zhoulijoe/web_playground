@@ -1,0 +1,34 @@
+body {
+    font-family: helvetica, arial;
+    font-size: 14px;
+    color: #17395A;
+}
+
+h1 {
+    /* Make first level header 3 times as big as body text */
+    font-size: 3em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2em;
+    color: #6A86A2;
+    background-color: #2B4F71;
+    margin: 20px;
+    border-bottom-style: dashed;
+    border-bottom-width: 10px;
+    border-bottom-color: #338dc5;
+    padding: 20px;
+}
+
+h3 {
+    font-style: italic;
+}
+
+strong {
+    text-transform: uppercase;
+}
+
+.completed {
+    text-decoration: line-through;
+}
