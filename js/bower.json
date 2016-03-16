@@ -1,0 +1,15 @@
+{
+  "name": "js_playground",
+  "authors": [
+    "Zhou Li <zhoulijoe@gmail.com>"
+  ],
+  "description": "Experimenting with js",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "underscore": "~1.8.3"
+  }
+}

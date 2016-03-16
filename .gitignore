@@ -2,6 +2,14 @@
 .DS_Store
 
 # Intellij
-.idea/workspace.xml
+.idea/
 
+# sass
+.sass-cache
+stylesheets
+
+# bootstrap source
 bootstrap_source
+
+# bower
+bower_components
