@@ -1,0 +1,15 @@
+{
+  "name": "summernote_playground",
+  "authors": [
+    "Zhou Li <zhoulijoe@gmail.com>"
+  ],
+  "description": "Experimenting with summernote",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "summernote": "^0.8.1"
+  }
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page Title</title>
+  <style>
+    .section-space {
+      height: 1000px;
+    }
+
+    iframe {
+      border: 0px;
+    }
+
+    .square-one {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+    }
+
+    .square-two {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      top: -50px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .long-text-box {
+      max-width: 400px;
+    }
+
+    .long-text {
+      min-width: 450px;
+      max-width: 800px;
+      position: relative;
+      top: 50px;
+    }
+
+    .square-top-left {
+      display: inline;
+      width: 100px;
+      height: 100px;
+      background-color: #1b6d85;
+      margin: 50px;
+    }
+
+    .square-top-right {
+      display: inline;
+      width: 100px;
+      height: 100px;
+      background-color: #8a6d3b;
+      margin: 50px;
+    }
+
+    .square-bottom {
+      width: 100px;
+      height: 100px;
+      background-color: #00AA88;
+      margin: 80px;
+    }
+
+    body {
+      margin-top: 50px;
+    }
+
+    h1 {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      margin-top: 0px;
+      background-color: rgba(50,50,50,0.5);
+    }
+
+    blockquote {
+      float: right;
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello
+    World</h1>
+
+  <ul>
+    <li><a href="#first-section">First Section</a></li>
+    <li><a href="#second-section">Second Section</a></li>
+  </ul>
+
+  <h2 id="first-section">First Section</h2>
+  <figure>
+    <img src="image/image-up.jpg" alt="floating house from up" title="House from up flying away" />
+    <figcaption>Up up and away</figcaption>
+  </figure>
+
+  <h2 id="second-section">Second Section</h2>
+  <form>
+    <select name="characteristic" size="3" multiple="multiple">
+      <option value="spicy">Spicy</option>
+      <option value="seafood" selected="selected">Seafood</option>
+      <option value="oily">Oily</option>
+    </select>
+  </form>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50470.03907086244!2d-122.46712797272014!3d37.7577471379396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2ssg!4v1473761825628"
+          width="400" height="300"></iframe>
+
+  <div class="square-one"></div>
+  <div class="square-two"></div>
+
+  <div class="long-text-box">
+    <blockquote>
+      "Life is like riding a bicycle. To keep your balance you must keep moving." - Albert Einstein
+    </blockquote>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tortor lobortis, lobortis diam at,
+      ornare velit. Vivamus at sagittis ligula. Suspendisse sed bibendum nulla. In ac nibh non felis bibendum porttitor in
+      laoreet leo. Sed ac aliquet mi. Phasellus non varius orci, a pharetra tortor. Pellentesque aliquet, eros in
+      pellentesque rhoncus, quam lacus cursus leo, nec fringilla lectus lectus et felis. Sed vitae tincidunt nunc.
+    </p>
+    <p class="long-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tortor lobortis, lobortis diam at,
+      ornare velit. Vivamus at sagittis ligula. Suspendisse sed bibendum nulla. In ac nibh non felis bibendum porttitor in
+      laoreet leo. Sed ac aliquet mi. Phasellus non varius orci, a pharetra tortor. Pellentesque aliquet, eros in
+      pellentesque rhoncus, quam lacus cursus leo, nec fringilla lectus lectus et felis. Sed vitae tincidunt nunc.
+    </p>
+  </div>
+
+  <div>
+    <div class="square-top-left"></div>
+    <div class="square-top-right"></div>
+  </div>
+  <div class="square-bottom"></div>
+
+</body>
+</html>

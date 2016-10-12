@@ -9,4 +9,8 @@ function variableTest() {
   // Local variable declaration
   var myLocalVar = 1;
   console.log('myLocalVar after declaration: ' + myLocalVar);
+
+  // Check variable type, returns a string indicating type
+  var type = typeof myLocalVar;
+  console.log('type of myLocalVar: ' + type);
 }
