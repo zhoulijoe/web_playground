@@ -20,4 +20,7 @@ function falseValueTest() {
   if (!'') {
     console.log('empty string is false');
   }
+
+  console.log('2 || 5 = ' + (2 || 5));
+  console.log('true || 0 = ' + (true || 0));
 }

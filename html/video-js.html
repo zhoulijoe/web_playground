@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Video</title>
+    <title>Title</title>
+
+    <link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
 </head>
 <body>
-<video width="1280" height="720" id="myVideo" class="videoClass" controls preload="auto"
+<video width="1280" height="720" class="video-js vjs-big-play-centered" controls preload="auto" data-setup="{}"
        poster="http://d1fn1iewii1xto.cloudfront.net/video/project/details/zkBfrSklrw26znfiS9udirTUYy7bBnfV/zkBfrSklrw26znfiS9udirTUYy7bBnfV_thumbnail_1280x720-00001.jpg">
     <source src="http://d1fn1iewii1xto.cloudfront.net/video/project/details/zkBfrSklrw26znfiS9udirTUYy7bBnfV/zkBfrSklrw26znfiS9udirTUYy7bBnfV_web.mp4" type="video/mp4">
     <p class="vjs-no-js">
@@ -14,12 +16,7 @@
     </p>
 </video>
 
-<button onclick="playVideo()">PLAY</button>
+
+<script src="http://vjs.zencdn.net/5.8.8/video.js"></script>
 </body>
 </html>
-
-<script>
-    function playVideo() {
-        document.getElementById('myVideo').play();
-    }
-</script>

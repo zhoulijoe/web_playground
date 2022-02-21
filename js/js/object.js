@@ -16,6 +16,8 @@ function objectTest() {
     var myObj2 = new Object();
     myObj2.prop1 = 'value1';
 
+    console.log('undefined property: ' + myObj.unknown);
+
     // Dictionary has type object
     console.log('type of myObj is: ' + typeof myObj);
 
